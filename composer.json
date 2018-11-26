@@ -1,0 +1,20 @@
+{
+  "name": "siipoland/module-base",
+  "description": "Base module for magento2 extensions from SiiPoland",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mateusz Lerczak",
+      "email": "mlerczak@pl.sii.eu"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SiiPoland\\Base\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}
